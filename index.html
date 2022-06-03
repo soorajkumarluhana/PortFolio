@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container navigation pt-3">
+      <div class="row">
+        <div class="col-lg-5  d-flex justify-content-start align-items-center">
+          <i class="fas fa-code fa-2x text-warning pb-3"></i>
+          <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+        </div>
+        <div class="col-lg-7 pt-2">
+          <div
+            class="row text-center p-0 d-flex justify-content-end align-items-center "
+          >
+            <a href="#about" class="col-lg-2 btn btn-outline-warning mb-2 mr-1">
+              <div  class="text-white navigation-link">About</div>
+            </a>
+            <a  href="#projects"  class="col-lg-2  btn btn-outline-warning mb-2 mr-1">
+              <div class="text-white navigation-link"
+                >Projects</div>
+            </a>
+            <a href="#social-media" class="col-lg-2 btn btn-outline-warning mb-2 mr-1">
+              <div href="#social-media" class="text-white navigation-link"
+                >Social Links</div>
+            </a>
+            <a href="https://drive.google.com/file/d/1Bd0khMoUKaSLQXk7Q8bWh3kWy8WoJv8p/view?usp=sharing"  target="_blank" class="col-lg-2 btn btn-outline-warning mb-2 mr-1">
+              <div
+                class="text-white navigation-link"
+                >Resume</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container mt-5">
+      <div class="row main_row">
+        <div class="col-lg-12">
+          <h2 class="text-white">Hello, I'm</h2>
+          <h1 class="text-warning m-heading">Sooraj Kumar Luhana</h1>
+          <h2 class="text-white">Flutter Developer</h2>
+        </div>
+        <!-- <div class="col-lg-5 mt-5">
+          <img
+            height="20"
+            width="20"
+            src="images/sooraj.jpg"
+            class="img-fluid"
+          />
+        </div> -->
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container about p-5 mt-5"> 
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/About_picture.jpg" class="img-fluid" />
+        </div>
+        <div class="col-md-6 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">About Me</h3>
+          <h1 class="m-heading">A little bit about me</h1>
+          <p>
+            I am an Engineer and have graduated in Electrical Engineering, so i am applying for the positon of Electrical engineering and also working on Flutter Technology
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <div class="row">
+        <div class="col-lg-4 mb-5">    
+          <div class="card" style="width: 18rem;">
+            <img
+              src="images/ChatUI.png"
+              class="card-img-top"
+              style="height: 13rem;"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chat UI</h5>
+              <p class="card-text">
+                This is Chat UI which i have built it on flutter, if you want to see code then click on below button.  
+              </p>
+              <a href="https://github.com/soorajkumarluhana/Flutter-Chat-UI" target="_blank" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/fitness.svg"
+              class="card-img-top img-fluid"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fitness Web App</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/e_commerce_platform.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce Platform</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/music.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Music Player</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/photography.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Photography Platform</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title
+    
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="./images/web_scraping.svg"
+              class="card-img-top"
+              alt="..."
+              style="height: 13rem;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Manga Scraping Web App</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-warning">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div id="social-media" class="container-fluid">
+      <div class="container text-white py-5">
+        <h4 class="text-warning">Social Links</h4>
+        <h1 class="m-heading">Connect with me</h1>
+        <div class="row pt-5">
+        <a class="col-md-3 media_link btn" href="https://linkedin.com/in/soorajkumarluhana" target="_blank">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">LinkedIn</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+              </div>
+            </div>
+        </a>
+        <a class="col-md-3 media_link btn" href="https://facebook.com/soorajkumarluhana" target="_blank">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="m-0 pt-2 text-white">Facebook</h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fab fa-facebook fa-2x text-secondary"></i>
+            </div>
+          </div>
+      </a> 
+          <a class="col-md-3 media_link btn" href="https://twitter.com/SoorajKLuhana" target="_blank">
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">Twitter</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-twitter fa-2x text-secondary"></i>
+              </div>
+            </div>
+        </a>
+      </a> 
+          <a class="col-md-3 media_link btn" href="https://github.com/soorajkumarluhana" target="_blank" >
+            <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                <h3 class="m-0 pt-2 text-white">GitHub</h3>
+              </div>
+              <div class="col-6 d-flex justify-content-end align-items-center">
+                <i class="fab fa-github fa-2x text-secondary"></i>
+              </div>
+            </div>
+        </a>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-muted text-center py-3 mt-5">
+        <h5>
+          Copyright &copy; 2020 |
+          <a class="text-warning text-decoration-none" href="#about"
+            >soorajkumarluhana</a
+          >
+        </h5>
+      </div>
+    </footer>
+  </body>
+</html>
